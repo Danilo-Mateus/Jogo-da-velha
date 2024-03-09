@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <nav class="menu-lateral">
+        <div class="btn-expandir">
+            <i class="bi bi-list"></i>
+        </div>
+        <ul>
+        <li class="item-menu">
+            <a href="">
+                <span class="icon"><i class="bi bi-house"></i></span>
+                <span class="txt-link">Home</span>
+            </a>
+            <li class="item-menu">
+                <a href="">
+                    <span class="icon"><i class="bi bi-grid-3x3"></i></span>
+                    <span class="txt-link"> velha</span>
+                </a>
+                <li class="item-menu">
+                    <a href="">
+                        <span class="icon"><i class="bi bi-apple"></i></span>
+                        <span class="txt-link"> apple</span>
+                    </a>
+                    <li class="item-menu">
+                        <a href="">
+                            <span class="icon"><i class="bi bi-music-note"></i></span>
+                            <span class="txt-link"> musica</span>
+                        </a>
+                        <li class="item-menu">
+                            <a href="">
+                                <span class="icon"><i class="bi bi-file-person"></i></span>
+                                <span class="txt-link">Apresentação</span>
+                            </a>
+    </ul>
+    </nav>
+    <h1>Jogo da velha </h1>
+    <div id="buttons-container" style="text-align: center;"> 
+        <button id="2-players"> 2 jogadores</button>
+        <button id="ai-player"> 1 jogador</button>
+    </div>
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>    
+
+    <div id="scoreboard-container">
+        <h2>Placar:</h2>
+        <span class="score-box">
+            <span id="x-scoreboard">X</span>
+            <span id="scoreboard-1">0</span>
+        </span>
+        <span class="score-box">
+            <span id="o-scoreboard"></span>
+        
+            <span id="scoreboard-2">0</span>
+        </span>
+    </div>
+</div>
+<div class="hide">
+    <div class="x">X</div>
+    <div class="o"></div>
+</div>
+<div id="message" class="hide">
+    <p>das</p>
+</div>
+
+
+</body>
+</html>
+<script src="js/scripts.js"></script>

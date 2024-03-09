@@ -1,0 +1,175 @@
+body{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(29, 4, 29, 0.836);
+
+}
+nav.menu-lateral{
+    width: 60px;
+    height: 100%;
+    background-color: #202020;
+    position: fixed; /* Mantém o nav fixo na tela */
+    top: 0; /* Alinha o topo do nav com o topo da tela */
+    left: 0; 
+    padding: 40px 0 40px 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 0 0 #ff0077;
+    position: fixed;
+    overflow: hidden;
+}
+nav.menu-lateral:hover{
+    width: 300px;
+  transition: .2s;
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+   
+}
+ul li.item-menu:hover{
+    background-color: #ff0077;
+  
+}
+ul li.item-menu a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+   margin-left: 0;
+}
+ul li.item-menu a .txt-link{
+margin-left: 30px;
+}
+
+ul li.item-menu a .icon{
+    font-size: 30px;
+   
+    }
+    
+    h1 {
+        font-size: 41px;
+        text-align: center;
+        border-top: 1px solid rgba(32, 32, 32, 0.8); /* Adiciona uma borda superior */
+        color: aliceblue;
+        padding: 20px 0; /* Adicione padding para ajustar o tamanho do background */
+        margin-top: 0;
+        margin-bottom: 50px;
+        background: linear-gradient(to bottom, rgba(32, 32, 32, 0.8) 5%, rgba(32, 32, 32, 0.8) 50%, rgba(32, 32, 32, 1) 100%);
+    }
+    
+
+.txt-link p{ 
+text-align: left;
+}
+
+
+#buttons-container button{
+    border: none;
+    padding: 10px 15px;
+    margin: 0px 10px;
+    
+    text-align: center;
+}
+#container{
+    width: 300px;
+   margin: 0 auto;
+    text-align:center; /* Centralize os quadrados horizontalmente */
+
+}
+
+
+    .box {
+       height: 90px;/* Reduza a altura dos quadrados */
+        width: 90px; /* Adicione uma largura para criar quadrados perfeitos */
+        border: 2px solid #000;
+        box-sizing: border-box;
+        flex: 1 1 33%;
+        display: inline-block; /* Adicione esta propriedade para que os quadrados não quebrem a linha */
+        vertical-align: top; /* Alinha os quadrados ao topo */
+        background-color: aliceblue;
+    }
+#block-1, #block-2, #block-3{
+    border-top: none;
+   
+    
+}
+#block-1, #block-4, #block-7{
+    border-left: none;
+  
+}
+#block-7, #block-8, #block-9{
+    border-bottom: none;
+   
+}
+#block-3, #block-6, #block-9{
+    border-right: none;
+    
+}
+.x{
+    font-size: 65px;
+    color: red;
+    display: inline-block;
+    line-height: 100px;
+}
+.o{
+    width: 50px;
+    height: 50px;
+    border: 5px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 17px;
+}
+.hide{
+    display: none;
+}
+#scoreboard-container{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#x-scoreboard{
+    color: red;
+    margin-right: 3px;
+}
+#o-scoreboard{
+ display: inline-block;
+ width: 18px;
+ height: 18px;
+ border: 2px solid green;
+ border-radius: 50%;
+ margin-right: 3px;
+}
+.score-box{
+    margin: 0 20px;
+    text-align: center;
+}
+#message p{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 150px;
+    width: 400px;
+    font-size: 50px;
+    color:blue;
+    background-color: rosybrown;
+    text-align: center;
+}
